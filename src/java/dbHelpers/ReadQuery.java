@@ -75,6 +75,7 @@ public class ReadQuery {
                 actor.setBirthday(this.results.getString("birthday"));
                 
                 table += "<tr>";
+                
                 table += "<td>";
                 table += actor.getActorID();
                 table += "</td>";
@@ -93,6 +94,10 @@ public class ReadQuery {
                 
                 table += "<td>";
                 table += actor.getBirthday();
+                table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=delete?actorID=" + actor.getActorID() + "> Delete </a>";
                 table += "</td>";
                 
                 table += "</tr>";
