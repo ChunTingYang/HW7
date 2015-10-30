@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author chuntyang
  */
 @WebServlet(name = "Read", urlPatterns = {"/read"})
-public class Read extends HttpServlet {
+public class ReadServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

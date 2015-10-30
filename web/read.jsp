@@ -10,7 +10,12 @@
     
     <body>
         <h1>Chun-Ting's Favorite Actors</h1>
+        
         <%= table %>
+        
+        <br><br>
+        
+        <a href="add">Add A New Actor</a>
         
     </body>
 </html>
