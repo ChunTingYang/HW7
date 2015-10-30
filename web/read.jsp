@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>My Favorite Actors</title>
     </head>
     
@@ -10,12 +11,9 @@
     
     <body>
         <h1>Chun-Ting's Favorite Actors</h1>
-        
         <%= table %>
-        
-        <br><br>
-        
-        <a href="add">Add A New Actor</a>
-        
+        <br>
+        <br>
+        <h2><a href="add">Add A New Actor</a></h2>
     </body>
 </html>

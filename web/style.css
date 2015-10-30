@@ -1,0 +1,36 @@
+h1{
+    font-family:Arial, Helvettica, Sans-serif;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family:Arial, Helvettica, Sans-serif;
+}
+body {
+    background: #D2B48C;
+    font-family:Arial, Helvettica, Sans-serif;
+}
+table {
+    background:white;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 5px;
+}
+}
+th {
+    text-align: center;
+    color: #696969;
+    background:#FFFF99;
+    height:50px;
+    border:white;
+    height:auto;
+}
+tr {
+    text-align: center;
+    color: white;
+    background-color: #F08080;
+    height:30px;
+    width:auto;
+    border:white;
+}
