@@ -8,7 +8,6 @@
     </head>
     <body>
         <h1>My Favorite Actors</h1>
-        
-        <a href="read">View All Actors</a>
+        <h2><a href="read">View All Actors</a></h2>
     </body>
 </html>
