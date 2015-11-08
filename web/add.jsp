@@ -10,27 +10,27 @@
         <h1>Add A New Actor</h1>
         
         <form name="addForm" action="addActor" method="get">
-            <table>
-                <tbody>
+            <table class="add">
                     <tr>
                         <th>Actor Name:</th>
-                        <td><input type="text" name="name" value="" /></td>
+                        <td class="right"><input type="text" name="name" value="" /></td>
                     </tr>
                     <tr>
                         <th>Nationality:</th>
-                        <td><input type="text" name="nationality" value="" /></td>
+                        <td class="right"><input type="text" name="nationality" value="" /></td>
                     </tr>
                     <tr>
                         <th>Age:</th>
-                        <td><input type="text" name="age" value="" /></td>
+                        <td class="right"><input type="text" name="age" value="" /></td>
                     </tr>
                     <tr>
                       <th>Birthday:</th>
-                      <td><input type="text" name="birthday" value="" /></td>
-                     </tr>  
-                <tbody>
+                      <td class="right"><input type="text" name="birthday" value="" /></td>
+                    </tr>
             </table>
-            <h2><input type="submit" name="add" value="Add" /> <input type="reset" name="clear" value="Clear" /></h2>
+            <br>
+            <input type="submit" name="add" value="Add" />
+            <input type="reset" name="clear" value="Clear" />
         </form>
     </body>
 </html>
