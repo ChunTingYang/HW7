@@ -16,7 +16,7 @@
             <table class="update">
                 <tr>
                 <th>Actor ID:</th>
-                <td class="right"><input type="text" name="name" value="<%= actor.getActorID() %>" /></td>
+                <td class="right"><input type="text" name="id" value="<%= actor.getActorID() %>" readonly/></td>
                 </tr>
                 <tr>
                     <th>Actor Name:</th>
