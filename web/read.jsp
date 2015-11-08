@@ -14,5 +14,7 @@
         <%= table %>
         <br>
         <h2><a href="add">Add A New Actor</a></h2>
+        <br>
+        <h2><a href="search.jsp">Search Actors</a></h2>
     </body>
 </html>

@@ -8,6 +8,9 @@
     </head>
     <body>
         <h1>My Favorite Actors</h1>
+        <br>
         <h2><a href="read">View All Actors</a></h2>
+        <br>
+        <h2><a href="search.jsp">Search Actors</a></h2>
     </body>
 </html>
