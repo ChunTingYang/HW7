@@ -7,10 +7,14 @@
         <title>Add A New Actor</title>
     </head>
     <body>
-        <h1>Add A New Actor</h1>
-        
-        <form name="addForm" action="addActor" method="get">
-            <table class="add">
+        <div class="wrap">
+            <%@include file="includes/header.jsp" %>
+            <%@include file="includes/menu.jsp" %>
+            
+            <div class="main">
+                <h1>Add A New Actor</h1>
+                <form name="addForm" action="addActor" method="get">
+                    <table class="add">
                     <tr>
                         <th>Actor Name:</th>
                         <td class="right"><input type="text" name="name" value="" /></td>
@@ -27,10 +31,15 @@
                       <th>Birthday:</th>
                       <td class="right"><input type="text" name="birthday" value="" /></td>
                     </tr>
-            </table>
-            <br>
-            <input type="submit" name="add" value="Add" />
-            <input type="reset" name="clear" value="Clear" />
-        </form>
+                    </table>
+                    <br>
+                    <input type="submit" name="add" value="Add" />
+                    <input type="reset" name="clear" value="Clear" />
+                </form>
+            </div>
+            
+            <div class="footer"><%@include file="includes/footer.jsp" %></div>
+            
+        </div>
     </body>
 </html>

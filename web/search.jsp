@@ -7,15 +7,21 @@
         <title>Search Actors</title>
     </head>
     <body>
-        <h1>Search Actors</h1>
-        
-        <form name="searchForm" action="search" method="get">
+        <div class="wrap">
+            <%@include file="includes/header.jsp" %>
+            <%@include file="includes/menu.jsp" %>
             
-            <input type="text" name="searchVal" value="" />
-            <br>
-            <input type="submit" name="submit" value="Search" />
+            <div class="main">
+                <h1>Search Actors</h1>
         
-        </form>
-    
+                <form name="searchForm" action="search" method="get">
+            
+                <input type="text" name="searchVal" value="" />
+                <br><br>
+                <input type="submit" name="submit" value="Search" />
+                </form>
+            </div>
+            <div class="footer"><%@include file="includes/footer.jsp" %></div>
+    </div>
     </body>
 </html>
